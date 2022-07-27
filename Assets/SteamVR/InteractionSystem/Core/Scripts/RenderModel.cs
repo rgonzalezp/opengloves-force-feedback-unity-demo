@@ -12,7 +12,7 @@ namespace Valve.VR.InteractionSystem
         protected GameObject handInstance;
         protected Renderer[] handRenderers;
         public bool displayHandByDefault = true;
-        protected SteamVR_Behaviour_Skeleton handSkeleton;
+        public SteamVR_Behaviour_Skeleton handSkeleton;
         protected Animator handAnimator;
 
         protected string animatorParameterStateName = "AnimationState";
